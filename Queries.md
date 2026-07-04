@@ -1228,7 +1228,7 @@ empId       name            deptName
 
 #### Summary (RIGHT, LEFT, INNER and FULL Join)
 
-![alt text](image-5.png)
+![alt text](./Images/image-5.png)
 
 #### CROSS JOIN
 
@@ -1343,7 +1343,7 @@ EmployeeId  EmployeeName                                       ManagerId   Manag
           6 Mary                                                         3 Bob                                               
 ```
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 
 
@@ -2812,15 +2812,15 @@ SELECT EmployeeID, Name, Salary FROM HighSalaryEmployees;
 - A window function in SQL is a type of function that allows us to perform calculations across a specific set of rows related to the current row. These calculations happen within a defined window of data, and they are particularly useful for aggregates, rankings, and cumulative totals without altering the dataset.
 - Lets understand with example, consider below image where you need to apply aggregate function on whole table, to find out count, average and sum, you will use `GROUP BY` clause for it.
 
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 - Now the corresponding output is an aggregate output, but lets say you wanna display this aggregate output with non-aggregate value something like below
 
-![alt text](image-3.png)
+![alt text](./Images/image-3.png)
 
 - In such case if you use aggregate function, you will get an error. To achieve this you can use subquery or `OVER` clause
 
-![alt text](image-4.png)
+![alt text](./Images/image-4.png)
 
 - The OVER clause is key to defining this window. It partitions the data into different sets (using the `PARTITION BY` clause)(optional) and orders them (using the `ORDER BY` clause)(optional)
 - Without the `OVER` clause, functions like SUM, RANK, or ROW_NUMBER act as regular aggregate functions that collapse data (e.g., a total sum for the entire dataset).
@@ -3082,7 +3082,7 @@ Charlie                                            Science                      
 ## Types of SQL Commands
 
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 1. Data Definition Language (DDL)
   - DDL changes the structure of the table like creating a table, deleting a table, altering a table, etc.
