@@ -3166,7 +3166,9 @@ LIMIT 1 OFFSET n-1;
 
 
 
+## SQL Mindmap
 
 
 
 
+![alt text](./Images/image-6.png)
